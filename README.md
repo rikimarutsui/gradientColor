@@ -12,7 +12,7 @@ You may call generateColor() or generateColorWithManyColor() to calculate the gr
 	
 	// Generate Multiple Graident Colors
 	var tmp = generateColorWithManyColor(['#ff0000', '#ff00ff', '#0000ff', '#00ffff'], 1000, false);
-	// generateColorWithManyColor(arrayOfColors, totalStepBetweenColors, countForEachGraidentColor = false)
+	// generateColorWithManyColor(arrayOfColors, totalStepBetweenColors, countForEachGraidentColor = true)
 ```
 Change Log:
 ### Feb 13 2019
