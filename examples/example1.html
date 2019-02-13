@@ -1,0 +1,11 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+<script src="gradientColor.js"></script>
+<div id="result_show"></div>
+<script>
+	var tmp = generateColor('#00ffff','#ff0000',52);
+	
+	for (cor in tmp) {
+	  $('#result_show').append("<div style='padding:8px;color:#FFF;background-color:#"+tmp[cor]+"'>COLOR "+cor+"° - #"+tmp[cor]+"</div>")
+	 
+	}
+</script>
