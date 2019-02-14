@@ -1,4 +1,4 @@
-# gradientColor
+# Gradient Color for Javascript
 
 ## Requirement
 JQuery 1.4 or above
